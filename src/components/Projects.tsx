@@ -12,7 +12,7 @@ const projets: Projet[] = [
         titre: 'Portfolio',
         description: 'Site vitrine développée avec React, TypeScript et Bootstrap',
         technos: ['React', 'TypeScript', 'Bootstrap', 'Vite'],
-        lien: 'https://github.com/'
+        lien: 'https://github.com/Dylanpel/portfolio'
     },
     {
         titre: 'HereWeGo',
@@ -28,7 +28,7 @@ const projets: Projet[] = [
 
 function Projects() {
     return (
-        <section id="projet">
+        <section id="projects">
             <div className="container">
                 <h2>Projets</h2>
                 <p className="text">Une sélection de ce que j'ai produits ou en cours de production.</p>

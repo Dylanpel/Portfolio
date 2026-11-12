@@ -14,11 +14,11 @@ function Hero() {
                         <a href="#contact" className="btn btn-outline-primary">Me contacter</a>
                     </div>
                     <div className="d-flex gap-2 mt-4">
-                        <a href="https://github.com/Dylanpel" target="_blank" rel="noonpener noreferrer" className="contact-lien">
+                        <a href="https://github.com/Dylanpel" target="_blank" rel="noopener noreferrer" className="contact-lien">
                             <FontAwesomeIcon icon={faGithub} />
                             Github
                         </a>
-                        <a href="https://www.linkedin.com/in/dylan-peltier-51597a33a/" target="_blank" rel="noonpener noreferrer" className="contact-lien">
+                        <a href="https://www.linkedin.com/in/dylan-peltier-51597a33a/" target="_blank" rel="noopener noreferrer" className="contact-lien">
                             <FontAwesomeIcon icon={faLinkedin} />
                             Linkedin
                         </a>

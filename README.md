@@ -1,32 +1,70 @@
-# React + TypeScript + Vite
+# Portfolio — Dylan Peltier
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfolio personnel de développeur web, réalisé avec **React**, **TypeScript** et **Bootstrap**, et propulsé par **Vite**.
 
-Currently, two official plugins are available:
+Il présente mon parcours, mes compétences et mes projets, et permet de télécharger mon CV.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 
-## React Compiler
+## Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Accueil** : présentation rapide, liens vers GitHub et LinkedIn
+- **À propos** : reconversion, formation et téléchargement du CV
+- **Compétences** : technologies maîtrisées (back-end, front-end, outils) et en cours d'apprentissage
+- **Projets** : sélection de projets réalisés ou en cours
 
-## Expanding the Oxlint configuration
+Les sections **Parcours** et **Contact** sont en cours de réalisation.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Stack technique
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+| Catégorie  | Outils                                  |
+| ---------- | --------------------------------------- |
+| Framework  | React 19, React Router                  |
+| Langage    | TypeScript                              |
+| Style      | Bootstrap 5, CSS                        |
+| Icônes     | Font Awesome                            |
+| Build      | Vite                                    |
+| Lint       | Oxlint                                  |
+
+## Installation
+
+Prérequis : [Node.js](https://nodejs.org/) (version 20 ou plus) et npm.
+
+```bash
+git clone https://github.com/Dylanpel/portfolio.git
+cd portfolio
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Scripts
+
+| Commande          | Description                                        |
+| ----------------- | -------------------------------------------------- |
+| `npm run dev`     | Lance le serveur de développement                  |
+| `npm run build`   | Vérifie les types puis génère la version de production dans `dist/` |
+| `npm run preview` | Prévisualise le build de production en local       |
+| `npm run lint`    | Analyse le code avec Oxlint                        |
+
+## Structure du projet
+
+```
+portfolio/
+├── public/              # Fichiers statiques (favicon, CV)
+├── src/
+│   ├── assets/          # Polices et images
+│   ├── components/      # Composants (Navbar, Hero, About, Skills, Projects…)
+│   ├── pages/           # Pages (Home)
+│   ├── App.tsx          # Routage
+│   ├── main.tsx         # Point d'entrée
+│   └── index.css        # Styles globaux
+├── index.html
+└── vite.config.ts
+```
+
+## Contact
+
+- GitHub : [@Dylanpel](https://github.com/Dylanpel)
+- LinkedIn : [Dylan Peltier](https://www.linkedin.com/in/dylan-peltier-51597a33a/)

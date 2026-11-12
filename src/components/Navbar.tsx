@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div className="container">
-                <HashLink className="navbar-brand title" to="/#acceuil">PELTIER Dylan</HashLink>
+                <HashLink className="navbar-brand title" to="/#accueil">PELTIER Dylan</HashLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>

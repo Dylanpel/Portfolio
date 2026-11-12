@@ -51,7 +51,7 @@ function Skills() {
                         <h3 className="text-center mb-4">{groupe.titre}</h3>
                         <div className="comp-grille">
                             {groupe.liste.map((comp) => (
-                                <div className="comp-card">
+                                <div className="comp-card" key={comp.nom}>
                                     <FontAwesomeIcon
                                         icon={comp.icon}
                                         style={{ color: comp.couleur }}
