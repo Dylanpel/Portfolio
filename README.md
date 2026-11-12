@@ -34,8 +34,8 @@ Les sections **Parcours** et **Contact** sont en cours de réalisation.
 Prérequis : [Node.js](https://nodejs.org/) (version 20 ou plus) et npm.
 
 ```bash
-git clone https://github.com/Dylanpel/portfolio.git
-cd portfolio
+git clone https://github.com/Dylanpel/Portfolio.git
+cd Portfolio
 npm install
 ```
 

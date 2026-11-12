@@ -12,7 +12,7 @@ const projets: Projet[] = [
         titre: 'Portfolio',
         description: 'Site vitrine développée avec React, TypeScript et Bootstrap',
         technos: ['React', 'TypeScript', 'Bootstrap', 'Vite'],
-        lien: 'https://github.com/Dylanpel/portfolio'
+        lien: 'https://github.com/Dylanpel/Portfolio'
     },
     {
         titre: 'HereWeGo',
