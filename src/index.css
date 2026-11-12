@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'Open_Sans';
+  src: url('./assets/fonts/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url('./assets/fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url('./assets/fonts/OpenSans-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'JetBrains_Mono';
+  src: url('./assets/fonts/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains_Mono';
+  src: url('./assets/fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains_Mono';
+  src: url('./assets/fonts/OpenSans-Bold.ttf');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/*================================================================
+                             ALL
+================================================================*/
+:root {
+  --font-text: 'JetBrains_Mono', sans-serif;
+  --font-title: 'Open_Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #d46438;
+  --bs-btn-border-color: #d46438a3;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d46438a3;
+  --bs-btn-hover-border-color: #d46438a3;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #d46438;
+  --bs-btn-active-border-color: #d46438;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #d46438;
+  --bs-btn-border-color: #d46438;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d46438;
+  --bs-btn-hover-border-color: #d46438;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #d46438;
+  --bs-btn-active-border-color: #d46438;
+}
+
+h2 {
+  font-family: var(--font-text);
+  font-weight: 700;
+}
+
+.text {
+  font-family: var(--font-text);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.758);
+}
+
+/*================================================================
+                             NavBar
+================================================================*/
+
+.title {
+  font-family: var(--font-title);
+  font-weight: 600;
+}
+
+.li-nav {
+  font-family: var(--font-title);
+  font-weight: 400;
+}
+
+.li-nav a {
+  border-radius: 10px;
+}
+
+.li-nav a:hover {
+  background-color: #fb923c60;
+  color: #c2410c;
+  border-radius: 10px;
+}
+
+/*================================================================
+                             Hero
+================================================================*/
+
+section {
+  padding-block: 8rem;
+  scroll-margin-top: 76px;
+}
+
+.intro {
+  font-family: var(--font-text);
+  font-weight: 400;
+  color: #c2410c;
+}
+
+h1 {
+  font-family: var(--font-text);
+  font-weight: 700;
+}
+
+.contact-lien {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-lien:hover {
+  color: #c2410c;
+}
+
+/*================================================================
+                             About
+================================================================*/
+
+#about {
+  background-color: #F2F0EF;
+}
+
+.profil {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: #d46438;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .profil {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}
+
+.profil p {
+  color: white;
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.localisation {
+  margin-top: -5px;
+  margin-left: -10px;
+}
+
+/*================================================================
+                             About
+================================================================*/
+
+.comp-grille {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.comp-card {
+  flex: 0 1 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #d46438;
+  padding: 1.2rem 0.8rem;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.comp-card:hover {
+  transform: translateY(-4px);
+}
+
+.comp-icon {
+  font-size: 2rem;
+}
+
+.comp-card span {
+  font-family: var(--font-text);
+  font-size: 0.80rem;
+}
+
+/*================================================================
+                             About
+================================================================*/
+
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
