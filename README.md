@@ -2,7 +2,7 @@
  
 Site portfolio personnel d'un développeur web en reconversion : présentation, compétences, projets, parcours et contact. Le site est une application React à page unique, avec une seconde page pour les mentions légales.
  
-**Site en ligne :** [URL DU SITE À COMPLÉTER]
+**Site en ligne :** https://dylan-peltier.fr
  
 
 ## Fonctionnalités
