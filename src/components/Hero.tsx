@@ -8,7 +8,7 @@ function Hero() {
                 <div className="text-hero">
                     <p className="intro">Bonjour, je suis</p>
                     <h1>Dylan</h1>
-                    <p className="text">Développeur Web & Application | Titre Professionnel Développement Web et Web Mobile | Recherche d'un poste Junior</p>
+                    <p className="text">Développeur Web & Application | Titre Professionnel Développement Web et Web Mobile | Recherche d'un Stage</p>
                     <div className="d-flex gap-2">
                         <a href="#projects" className="btn btn-primary">Voir mes projets</a>
                         <a href="#contact" className="btn btn-outline-primary">Me contacter</a>

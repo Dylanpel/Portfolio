@@ -31,7 +31,7 @@ function Navbar() {
                             <HashLink className="nav-link" to="/#projects" onClick={closeMenu}>Projets</HashLink>
                         </li>
                         <li className="nav-item">
-                            <HashLink className="nav-link" to="/#parcour" onClick={closeMenu}>Parcours</HashLink>
+                            <HashLink className="nav-link" to="/#parcours" onClick={closeMenu}>Parcours</HashLink>
                         </li>
                         <li className="nav-item">
                             <HashLink className="nav-link" to="/#contact" onClick={closeMenu}>Contact</HashLink>
