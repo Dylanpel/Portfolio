@@ -16,7 +16,7 @@ function About() {
                         </p>
                         <p className="text">
                             Aujourd’hui, je prépare une Licence professionnelle Métiers de l’informatique : conception, développement et test de logiciels à l’Université de Poitiers. Cette année me permet d’approfondir mes connaissances et de découvrir de nouveaux langages, comme le Java.
-                            Pour compléter ma formation et acquérir une experience professionnelle, je suis à la recherche d’un stage.
+                            Pour compléter ma formation et acquérir une expérience professionnelle, je suis à la recherche d’un stage.
                         </p>
                         <div className="d-flex gap-3">
                             <FontAwesomeIcon icon={faLocationDot} />
