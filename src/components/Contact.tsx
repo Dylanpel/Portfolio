@@ -13,7 +13,7 @@ function Contact() {
                         <FontAwesomeIcon icon={faEnvelope} className="me-2" />Envoyer-moi un mail
                     </a>
 
-                    <a href="/CV Peltier Dylan.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary cv">
+                    <a href={`${import.meta.env.BASE_URL}CV%20Peltier%20Dylan.pdf`} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary cv">
                         Télécharger mon CV
                     </a>
                 </div>
