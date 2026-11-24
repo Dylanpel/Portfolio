@@ -22,7 +22,7 @@ function About() {
                             <FontAwesomeIcon icon={faLocationDot} />
                             <p className="localisation text">Poitiers, FRANCE</p>
                         </div>
-                        <a href="/CV Peltier Dylan.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">Télécharger mon CV</a>
+                        <a href={`${import.meta.env.BASE_URL}CV%20Peltier%20Dylan.pdf`} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">Télécharger mon CV</a>
                     </div>
                 </div>
             </div>
