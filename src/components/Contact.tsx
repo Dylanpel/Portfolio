@@ -10,7 +10,7 @@ function Contact() {
             <div className="contact">
                 <div className="contact-utile">
                     <a href="mailto:peltierdylan38@gmail.com" className="email">
-                        <FontAwesomeIcon icon={faEnvelope} className="me-2" />Envoyer-moi un mail
+                        <FontAwesomeIcon icon={faEnvelope} className="me-2" />Envoyez-moi un mail
                     </a>
 
                     <a href="/CV Peltier Dylan.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary cv">
